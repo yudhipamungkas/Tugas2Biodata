@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="50dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/fotosiadin"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="10dp">
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="NIM"/>
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:text=":"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:text="A11.2017.10160"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="Nama"
+            />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:text=":"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:text="Yudhi Tri Pamungkas"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="Hobby"
+            />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:text=":"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:text="Olahraga"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="Deskripsi"
+            />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:text=":"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:text="Laki Laki yang belum laku-laku"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="Alamat"
+            />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:text=":"/>
+        <TextView
+            android:id="@+id/alamatYudhi"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:text="BTN Songgo Indah, Kaligelang, Taman, Pemalang, Jawa Tengah"/>
+        <ImageButton
+            android:id="@+id/alamat"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/alamat"
+            android:onClick="alamat"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="Telepon"
+            />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:text=":"/>
+        <TextView
+            android:id="@+id/phoneYudhi"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:text="085727937400"/>
+        <ImageButton
+            android:id="@+id/phone"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/phone"
+            android:onClick="phone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="Email"
+            />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:text=":"/>
+        <TextView
+            android:id="@+id/emailYudhi"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="yudhipamungkas18@gmail.com" />
+        <ImageButton
+            android:id="@+id/email"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/email"
+            android:onClick="email"/>
+    </LinearLayout>
+
+
+</LinearLayout>
